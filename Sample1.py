@@ -1,4 +1,5 @@
 def Hello():
   print("Hi,Vasudha")
 
-Hello()
+if __name__=="__main__":
+  Hello()
