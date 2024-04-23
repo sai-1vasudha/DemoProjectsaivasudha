@@ -1,1 +1,4 @@
-print("Hi,Vasudha")
+def Hello():
+  print("Hi,Vasudha")
+
+Hello()
