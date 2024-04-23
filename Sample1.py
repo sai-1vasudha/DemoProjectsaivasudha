@@ -2,8 +2,9 @@ def Hello():
   print("Hi,Vasudha")
 
 
-def add():
-  print(5+5)
+def add(a, b):
+  c=a+b
+  print(c)
   
 
 if __name__=="__main__":
