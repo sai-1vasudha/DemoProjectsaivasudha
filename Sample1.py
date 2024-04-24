@@ -9,10 +9,22 @@ def add(a, b):
 def sub(x,y):
   z = x-y
   print(z)
+
+
+def mul(x,y):
+
+  z = x*y
+  print(z)
+
+def div(x,y):
+  z=x/y
+  print(z)
   
   
 
 if __name__=="__main__":
   Hello()
-  add()
-  sub()
+  add(10,20)
+  sub(50,10)
+  mul(5,5)
+  div(20,4)
